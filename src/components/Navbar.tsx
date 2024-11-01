@@ -12,7 +12,6 @@ import {
 } from "@ant-design/icons";
 
 const { useBreakpoint } = Grid;
-
 function Navbar({ scrollToExplore }: { scrollToExplore: any }) {
   const [hovered, setHovered] = useState<
     null | "home" | "explore" | "help" | "github" | "join"
